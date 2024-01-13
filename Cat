@@ -1,1 +1,15 @@
-print
+words_meaning = { "LOL": "very funny",
+              "CRINGE": "something weird, embarrassing",
+              "ROFL": "joke",
+              "SHIELDS": "approval or delight",
+              "CREEPY": "scary, frightening",
+              "AGR": "angry"
+              
+              }
+word = input("What words meanning do you want to know" )
+
+if word in words_meaning.keys():
+    print(words_meaning[word])
+    
+else:
+    print("Sorry we do not have this word at the moment")
